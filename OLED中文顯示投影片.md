@@ -114,7 +114,7 @@ fb = framebuf.FrameBuffer(bitmap_grade1, 32, 16, framebuf.MONO_HLSB)
 |------|------|------|
 | **MONO** | Monochrome | 單色影像 |
 | **H** | Horizontal | 資料以水平方向排列 |
-| **LSB→MSB** | Most Significant Bit first | 最高有效位元（MSB）在前 |
+| **MSB** | Most Significant Bit first | 最高有效位元（MSB）在前 |
 
 > ⚠️ 此參數**必須**與字模軟體輸出的設定**完全一致**，否則顯示結果將出現錯位或亂碼。
 
@@ -165,4 +165,4 @@ $$\text{Bytearray} \rightarrow \text{FrameBuffer} \rightarrow \text{blit()}$$
 
 ---
 
-*本投影片內容可使用 Pandoc 轉換為 .pptx 格式：`pandoc OLED中文顯示投影片.md -o presentation.pptx`*
+*本投影片內容可使用 Pandoc 轉換為 .pptx 格式： `pandoc OLED中文顯示投影片.md -o presentation.pptx`*
